@@ -23,6 +23,8 @@ WebUI.navigateToUrl('http://130.211.243.37:96/login')
 
 WebUI.click(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Login  Elearning CMS/div_Selamat Datang                        S_5442a5'))
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Login  Elearning CMS/input_email'), 
     'admin@indocyber.com')
 
@@ -30,6 +32,8 @@ WebUI.click(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Te
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Login  Elearning CMS/input_password'), 
     'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Login  Elearning CMS/button_Login'))
 
