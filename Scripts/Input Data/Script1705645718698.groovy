@@ -17,83 +17,83 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Home  Elearning CMS/a_Master Question'))
+WebUI.click(findTestObject('Object Repository/Page_Master Quiz/Test Record/Page_Home  Elearning CMS/a_Master Question'))
 
-WebUI.click(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/button_Tambah                              _531150'))
+WebUI.click(findTestObject('Object Repository/Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/button_Tambah                              _531150'))
 
 WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/Level'))
+WebUI.click(findTestObject('Object Repository/Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/Level'))
 
-WebUI.scrollToElement(findTestObject('Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/Level Choose 1'), 
+WebUI.scrollToElement(findTestObject('Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/Level Choose 1'), 
     0)
 
 WebUI.delay(3)
 
 WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/Level Choose 1'))
+WebUI.click(findTestObject('Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/Level Choose 1'))
 
 WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/Module'))
+WebUI.click(findTestObject('Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/Module'))
 
-WebUI.scrollToElement(findTestObject('Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/Module Choose'), 
+WebUI.scrollToElement(findTestObject('Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/Module Choose'), 
     0)
 
 WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/Module Choose'))
+WebUI.click(findTestObject('Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/Module Choose'))
 
 WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/Chapter'))
+WebUI.click(findTestObject('Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/Chapter'))
 
-WebUI.scrollToElement(findTestObject('Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/Chapter Choose'), 
+WebUI.scrollToElement(findTestObject('Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/Chapter Choose'), 
     0)
 
 WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/Chapter Choose'))
+WebUI.click(findTestObject('Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/Chapter Choose'))
 
 WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/textarea_optA'), 
+WebUI.setText(findTestObject('Object Repository/Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/textarea_optA'), 
     'Test Option A')
 
-WebUI.setText(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/textarea_desc'), 
+WebUI.setText(findTestObject('Object Repository/Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/textarea_desc'), 
     'Apa Option Terbaik?')
 
-WebUI.setText(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/textarea_optB'), 
+WebUI.setText(findTestObject('Object Repository/Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/textarea_optB'), 
     'Test Option B')
 
-WebUI.setText(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/textarea_optC'), 
+WebUI.setText(findTestObject('Object Repository/Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/textarea_optC'), 
     'Test Option C')
 
-WebUI.setText(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/textarea_optD'), 
+WebUI.setText(findTestObject('Object Repository/Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/textarea_optD'), 
     'Test Option D')
 
-WebUI.click(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/input_correctAnswer'))
+WebUI.click(findTestObject('Object Repository/Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/input_correctAnswer'))
 
-WebUI.click(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/input_isActive'))
+WebUI.click(findTestObject('Object Repository/Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/input_isActive'))
 
 WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Page_Master Quiz  Elearning CMS/Test Record/Page_Master Quiz  Elearning CMS/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_Master Quiz/Test Record/Page_Master Quiz  Elearning CMS/button_Save'))
 
 WebUI.delay(3)
 
